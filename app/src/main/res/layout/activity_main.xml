@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivitybackground"
+    tools:context=".MainActivity">
+
+<!--    <Buttonund<![CDATA[=''-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="375dp"-->
+<!--        android:layout_height="57dp"-->
+<!--        android:text="Resister as a Buyer"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textColorHighlight="#F2DF1616"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.611"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button3"-->
+<!--        app:layout_constraintVertical_bias="0.526" />-->
+
+
+
+
+
+
+
+<!--    ]]>-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="338dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="96dp"
+        android:alpha="0.80"
+        android:background="@drawable/botton_background"
+        android:onClick="btnRegFarmer"
+        android:text="Resister As a Farmer"
+        android:textColor="#000000"
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bbutton" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:alpha="0.80"
+        android:background="@drawable/botton_background"
+        android:onClick="btnlogin"
+        android:text="Login"
+        android:textColor="#030303"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/bbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874" />
+
+    <Button
+        android:id="@+id/bbutton"
+        android:layout_width="339dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="52dp"
+        android:alpha="0.80"
+        android:background="@drawable/botton_background"
+        android:onClick="btnRegBuyer"
+        android:text="Resister as a buyer"
+        android:textColor="#0A0909"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="266dp"
+        android:layout_height="229dp"
+        android:alpha="0.85"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo22" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

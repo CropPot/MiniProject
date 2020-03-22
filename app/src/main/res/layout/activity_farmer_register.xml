@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginactivitybackground"
+    tools:context=".FarmerRegisterActivity">
+
+    <EditText
+        android:id="@+id/bfirst_name"
+        android:layout_width="347dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="556dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textColor="#070707"
+        android:textColorHint="#0C0B0B"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/blast_name"
+        android:layout_width="345dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#0F0F0F"
+        app:layout_constraintStart_toStartOf="@+id/bfirst_name"
+        app:layout_constraintTop_toBottomOf="@+id/bfirst_name" />
+
+    <EditText
+        android:id="@+id/bmob_no"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Mobile Number "
+        android:inputType="number"
+        android:textColor="#111010"
+        android:textColorHint="#0C0C0C"
+        app:layout_constraintStart_toStartOf="@+id/blast_name"
+        app:layout_constraintTop_toBottomOf="@+id/blast_name" />
+
+    <EditText
+        android:id="@+id/bemail"
+        android:layout_width="341dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#070707"
+        android:textColorHint="#0C0C0C"
+        app:layout_constraintStart_toStartOf="@+id/bmob_no"
+        app:layout_constraintTop_toBottomOf="@+id/bmob_no" />
+
+    <EditText
+        android:id="@+id/bpassword"
+        android:layout_width="339dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#0C0C0C"
+        app:layout_constraintStart_toStartOf="@+id/bemail"
+        app:layout_constraintTop_toBottomOf="@+id/bemail" />
+
+    <Button
+        android:id="@+id/bbutton"
+        android:layout_width="339dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/botton_background"
+        android:onClick="btnClick"
+        android:text="Resister"
+        android:textColor="#9E110F0F"
+        android:textColorLink="#0A0A0A"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/bpassword"
+        app:layout_constraintTop_toBottomOf="@+id/bpassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
